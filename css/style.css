@@ -71,6 +71,12 @@ body {padding-top: 70px; overflow: hidden;}
 
 .carousel-inner > .item img {width:100%; height: calc(100vh - 70px)}
 
+.carousel-control i {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+}
+
 /* End overWriting */
 
 /* toolBox */
