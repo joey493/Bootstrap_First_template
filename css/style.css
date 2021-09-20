@@ -120,7 +120,7 @@ body {padding-top: 70px; overflow: hidden;}
 
 .features .feat {margin: 30px 0;}
 
-.features .feat .glyphicon{font-size: 2rem; color: var(--main-color);}
+.features .feat i{font-size: 2rem; color: var(--main-color);}
 
 .features .feat h4{font-weight: bold; margin: 30px;}
 
