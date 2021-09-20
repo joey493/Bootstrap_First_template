@@ -13,8 +13,10 @@ BootStrap First Template | Elzero Web School
 - HTML
 - CSS
   - bootstrap-3.3.7
+  - hover.css
 - JavaScript
   - jQuery
+  - Wow.js
 
 ## Resources
 

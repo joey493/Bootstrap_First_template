@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./css/media.css">
     <!-- hover.css -->
     <link rel="stylesheet" href="./css/hover.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>BootStrap 3 | Design 1</title>
@@ -119,7 +121,7 @@
     <!-- End Carousel -->
 
     <!-- Start About -->
-    <section class="about text-center">
+    <section class="about text-center wow bounceIn" data-wow-offset='300'>
         <div class="container">
             <h1 class="h1">Meet Our New Template <span>Dazai Inc.</span></h1>
             <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore ipsam facere ab aliquid quas totam a explicabo iure</p>
@@ -129,30 +131,30 @@
     <!-- End About -->
 
     <!-- Start Features -->
-    <section class="features text-center">
+    <section class="features text-center wow">
         <div class="container">
             <h1 class="h1">Our Features</h1>
             <div class="row">
                 <!-- feature 1 -->
-                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow">
+                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow wow slideInLeft">
                     <i class="fas fa-search"></i>
                     <h4>100% responsive</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus excepturi accusamus eos ratione dicta atque fuga obcaecati.</p>
                 </div>
                 <!-- feature 2 -->
-                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow">
+                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow wow fadeInDown" data-wow-delay='1s'>
                     <i class="fas fa-thumbs-up"></i>
                     <h4>Retina Ready</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus excepturi accusamus eos ratione dicta atque fuga obcaecati.</p>
                 </div>
                 <!-- feature 3 -->
-                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow">
+                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow wow fadeInUp" data-wow-delay='1s'>
                     <i class="fas fa-eye"></i>
                     <h4>Awesome Display</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus excepturi accusamus eos ratione dicta atque fuga obcaecati.</p>
                 </div>
                 <!-- feature 4 -->
-                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow"> 
+                <div class="feat col-lg-3 col-sm-6 hvr-float-shadow wow slideInRight"> 
                     <i class="fas fa-pencil-alt"></i>
                     <h4>Well Documented</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia repellendus excepturi accusamus eos ratione dicta atque fuga obcaecati.</p>
@@ -163,7 +165,7 @@
     <!-- End Features -->
 
     <!-- Start Testimonials -->
-    <section class="testmonials text-center">
+    <section class="testmonials text-center wow bounceIn" data-wow-offset='400'>
         <div class="container">
             <h2 class="h1">What Our Clients Say?</h2>
             <!-- Start Testimonials Carousel -->
@@ -194,19 +196,19 @@
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <!-- 1st bullet -->
-                    <li data-target="#Testimonials-Carousel" data-slide-to="0" class="active">
+                    <li data-target="#Testimonials-Carousel" data-slide-to="0" class="active wow fadeInDown" data-wow-delay='1s'>
                         <img src="./images/testmonials/avatar_01.jpg">
                     </li>
                     <!-- 2nd bullet -->
-                    <li data-target="#Testimonials-Carousel" data-slide-to="1">
+                    <li data-target="#Testimonials-Carousel" data-slide-to="1" class="wow fadeInDown" data-wow-delay='1s'>
                         <img src="./images/testmonials/avatar_02.jpg">
                     </li>
                     <!-- 3rd bullet -->
-                    <li data-target="#Testimonials-Carousel" data-slide-to="2">
+                    <li data-target="#Testimonials-Carousel" data-slide-to="2" class="wow fadeInDown" data-wow-delay='1s'>
                         <img src="./images/testmonials/avatar_03.jpg">
                     </li>
                     <!-- 4th bullet -->
-                    <li data-target="#Testimonials-Carousel" data-slide-to="3">
+                    <li data-target="#Testimonials-Carousel" data-slide-to="3" class="wow fadeInDown" data-wow-delay='1s'>
                         <img src="./images/testmonials/avatar_04.jpg">
                     </li>
                 </ol>
@@ -223,7 +225,7 @@
             <div class="row">
                 <!-- 1st plan -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="price-box">
+                    <div class="price-box wow flipInY" data-wow-duration="1.5s">
                         <h3 class="text-primary">Hosting</h3>
                         <p class="center-block">$40</p>
                         <ul class="list-unstyled text-left">
@@ -238,7 +240,7 @@
                 </div>
                 <!-- 2nd plan -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="price-box">
+                    <div class="price-box wow flipInY" data-wow-duration="1.5s">
                         <h3 class="text-success">Vps</h3>
                         <p class="center-block">$40</p>
                         <ul class="list-unstyled text-left">
@@ -253,7 +255,7 @@
                 </div>
                 <!-- 3th plan -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="price-box">
+                    <div class="price-box wow flipInY" data-wow-duration="1.5s">
                         <h3 class="text-info">Dedicated</h3>
                         <p class="center-block">$40</p>
                         <ul class="list-unstyled text-left">
@@ -268,7 +270,7 @@
                 </div>
                 <!-- 4th plan -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="price-box">
+                    <div class="price-box wow flipInY" data-wow-duration="1.5s">
                         <h3 class="text-danger">Cloud</h3>
                         <p class="center-block">$40</p>
                         <ul class="list-unstyled text-left">
@@ -293,7 +295,7 @@
             <div class="row">
                 <!-- 1st member -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="person hvr-grow">
+                    <div class="person hvr-grow wow bounceInLeft" data-wow-duration="2s">
                         <img class="img-circle" src="images/our-team/chris.jpg">
                         <h3>Chris Coyier</h3>
                         <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
@@ -305,7 +307,7 @@
                 </div>
                 <!-- 2nd member -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="person hvr-grow">
+                    <div class="person hvr-grow wow bounceInDown" data-wow-duration="2s">
                         <img class="img-circle" src="images/our-team/leah.jpg">
                         <h3>Leah Culver</h3>
                         <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking</p>
@@ -317,7 +319,7 @@
                 </div>
                 <!-- 3rd member -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="person hvr-grow">
+                    <div class="person hvr-grow wow bounceInUp" data-wow-duration="2s">
                         <img class="img-circle" src="images/our-team/marissa.jpg">
                         <h3>Marissa Mayer</h3>
                         <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking</p>
@@ -329,7 +331,7 @@
                 </div>
                 <!-- 4th member -->
                 <div class="col-lg-3 col-sm-6">
-                    <div class="person hvr-grow">
+                    <div class="person hvr-grow wow bounceInRight" data-wow-duration="2s">
                         <img class="img-circle" src="images/our-team/steve.jpg">
                         <h3>Steve Jobs</h3>
                         <p>This Is The Man Who Change The World With His Apple Products</p>
@@ -346,7 +348,7 @@
 
     <!-- Start Subscribe -->
     <section class="subscribe text-center">
-        <div class="container">
+        <div class="container wow bounceIn">
             <h2 class="h1">Keep In Touch</h2>
             <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
             <form class="form-inline">
@@ -364,7 +366,7 @@
                 <h2 class="h1">Our Main Statistics</h2>
                 <div class="row">
                     <!-- 1st col -->
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 wow rotateInDownLeft">
                         <div class="statistics hvr-pulse-shrink">
                             <i class="fas fa-users fa-5x"></i>
                             <p>9,550</p>
@@ -372,23 +374,23 @@
                         </div>
                     </div>
                     <!-- 2nd col -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="statistics hvr-pulse-shrink">
+                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s">
+                        <div class="statistics hvr-pulse-shrink" >
                             <i class="fas fa-comments fa-5x"></i>
                             <p>25,600</p>
                             <span>Posted Comments</span>
                         </div>
                     </div>
                     <!-- 3rd col -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="statistics hvr-pulse-shrink">
+                    <div class="col-sm-6 col-lg-3 wow fadeInUp" data-wow-duration="2s">
+                        <div class="statistics hvr-pulse-shrink" >
                             <i class="fas fa-suitcase fa-5x"></i>
                             <p>3,260</p>
                             <span>Projects Done</span>
                         </div>
                     </div>
                     <!-- 4th col -->
-                    <div class="col-sm-6 col-lg-3">
+                    <div class="col-sm-6 col-lg-3 wow rotateInDownRight">
                         <div class="statistics hvr-pulse-shrink">
                             <i class="far fa-life-ring fa-5x"></i>
                             <p>95,350</p>
@@ -458,7 +460,7 @@
                 <!-- contact form -->
                 <div class="row">
                     <form>
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow slideInLeft">
                             <div class="form-group">
                                 <input type="text" class="form-control input-lg" placeholder="Username">
                             </div>
@@ -469,7 +471,7 @@
                                 <input type="text" class="form-control input-lg" placeholder="Cell phone">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 wow slideInRight">
                             <div class="form-group">
                                 <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
                             </div>
@@ -487,22 +489,22 @@
         <div class="container">
             <div class="row">
                 <ul class="list-unstyled">
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn">
                         <img class="img-responsive center-block" src="./images/our-clients/bbc.png" alt="bbc">
                     </li>
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn" data-wow-delay=".5s">
                         <img class="img-responsive center-block" src="./images/our-clients/cnn.png" alt="cnn">
                     </li>
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn" data-wow-delay="1s">
                         <img class="img-responsive center-block" src="./images/our-clients/forbes.png" alt="forbes">
                     </li>
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn" data-wow-delay="1.5s">
                         <img class="img-responsive center-block" src="./images/our-clients/techradar.png" alt="techradar">
                     </li>
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn" data-wow-delay="2s">
                         <img class="img-responsive center-block" src="./images/our-clients/wired.png" alt="wired">
                     </li>
-                    <li class="col-md-2 col-xs-4">
+                    <li class="col-md-2 col-xs-4 wow bounceIn" data-wow-delay="2.5s">
                         <img class="img-responsive center-block" src="./images/our-clients/wsj.png" alt="wsj">
                     </li>
                 </ul>
@@ -615,5 +617,9 @@
     <script src="./js/jquery-1.11.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/plugins.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
