@@ -14,6 +14,7 @@ BootStrap First Template | Elzero Web School
 - CSS
   - bootstrap-3.3.7
 - JavaScript
+  - jQuery
 
 ## Resources
 
